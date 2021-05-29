@@ -1,0 +1,19 @@
+.box-form {
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  grid-row-gap: 10px;
+  border-radius: 20px;
+}
+.errorMessage {
+  color: red;
+}
+.form-input {
+  height: 30px;
+}
+.form-input:hover {
+  background-color: beige;
+}
